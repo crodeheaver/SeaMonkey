@@ -15,7 +15,7 @@ int main()
 	vector<Token*>* tokenList = l.Tokenize();
 	
 	for (vector<Token*>::iterator it = tokenList->begin() ; it != tokenList->end(); ++it)
-    	cout << (*it)->literal << endl;
+    	cout << "{ token." << (*it)->type << ", literal: " <<  (*it)->literal << " }" << endl;
 	return 0;
 }
 
