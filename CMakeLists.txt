@@ -1,6 +1,6 @@
-cmake_minimum_required(VERSION 3.12)
-project(SeaLion C)
+cmake_minimum_required(VERSION 3.10)
+project(SeaMonkey)
 
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_CXX_STANDARD 11)
 
-add_executable(SeaLion main.c includes/token.h includes/lexer.h src/lexer.c src/token.c)
+add_executable(SeaMonkey main.cpp includes/token.h includes/lexer.h includes/tokens.h includes/interfaces.h includes/program.h src/lexer.cpp src/token.cpp)
