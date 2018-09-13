@@ -169,7 +169,7 @@ namespace SeaMonkey {
 	{
 		TokenType token = keywords[identity];
 
-		if (token.empty())
+		if (!token.empty())
 			return token;
 		
 		return constants::IDENT;
