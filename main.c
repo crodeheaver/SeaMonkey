@@ -30,6 +30,5 @@ int main() {
         printf("{token.%s, literal: \"%s\"},\n", token.type, token.literal);
         i++;
     }
-    printf("Hello, World!\n");
     return 0;
 }
